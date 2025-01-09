@@ -4,10 +4,7 @@
     "allowJs": true,
     "esModuleInterop": true,
     "jsx": "react-native",
-    "lib": [
-      "DOM",
-      "ESNext"
-    ],
+    "lib": ["DOM", "ESNext"],
     "moduleResolution": "node",
     "noEmit": true,
     "resolveJsonModule": true,
@@ -15,9 +12,7 @@
     "target": "ESNext",
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      "@/*": ["src/*"]
     },
     "strict": true
   },
@@ -31,8 +26,5 @@
     "babel.config.cjs",
     "metro.config.js"
   ],
-  "exclude": [
-    "node_modules",
-    "jest.config.js"
-  ]
+  "exclude": ["node_modules", "jest.config.js"]
 }
